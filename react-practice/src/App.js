@@ -5,11 +5,12 @@ import Parent from './CodingChallenges/ChangeParentState/Parent';
 import ParentCount from './CodingChallenges/CountWithContext/Parent';
 import FetchRandom from './CodingChallenges/FetchRandomData/FetchRandom';
 import Counter from './CounterRedux';
+import ShowNested from './CodingChallenges/ShowNestedObject/ShowNested';
 
 function App() {
   return (
     <div className="App">
-      <AddRemoveList></AddRemoveList>
+      <ShowNested></ShowNested>
     </div>
   );
 }
